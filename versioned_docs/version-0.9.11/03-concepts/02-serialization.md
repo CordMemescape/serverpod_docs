@@ -11,4 +11,4 @@ fields:
   employees: List<Employee>
 ```
 
-Supported types are `bool`, `int`, `double`, `String`, `DateTime`, `ByteData`, and other serializable classes. You can also use `List`s and `Map`s of the supported types. Null safety is supported. The keys of `Map` must be non-nullable `String`s Once your classes are generated, you can use them as parameters or return types to endpoint methods.
+Supported types are `bool`, `int`, `double`, `String`, `DateTime`, `ByteData`, and other serializable classes. You can also use `List`s and `Map`s of the supported types. Null safety is supported. The keys of `Map` must be non-nullable `String`s. Once your classes are generated, you can use them as parameters or return types to endpoint methods.
